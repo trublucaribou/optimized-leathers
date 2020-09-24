@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- ======================= Luxe Fur =============================== -->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_LuxeFur</defName>
+    <label>luxe fur</label>
+    <description>Fluffy, soft pieces of the highest quality animal fur. Snuggly and warm, Luxe Fur is perfect for cozy bed-spreads.</description>
+    <graphicData>
+      <color>(192,192,192)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>9.7</MarketValue>
+      <StuffPower_Armor_Sharp>0.14</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>42</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(192,192,192)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+	      <Beauty>5</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+
+    <!-- ======================= Soft Fur =============================== -->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_SoftFur</defName>
+    <label>soft fur</label>
+    <description>Warm, soft scraps of fur, usually sourced from small mammals. It's hard to collect a lot of it, but it works well for bedding.</description>
+    <graphicData>
+      <color>(168,147,125)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(168,147,125)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+	      <Beauty>3</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+    <!-- ======================= Coarse Fur =============================== -->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_CoarseFur</defName>
+    <label>coarse fur</label>
+    <description>Bristly scraps of fur from a small mammal. Not the most comfortable or valuable, but it'll keep you moderately warm.</description>
+    <graphicData>
+      <color>(64,62,56)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.24</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(64,62,56)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1</MaxHitPoints>
+	      <Beauty>1.5</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Sturdy</defName>
+    <label>sturdy leather</label>
+    <description>Tanned, dried, scraped elephant skin. While quite tough, it is a poor insulator.</description>
+    <graphicData>
+      <color>(130,126,119)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(130,126,119)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <Beauty>1.6</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Thick</defName>
+    <label>thick pelt</label>
+    <description>The strong furry leather of a bear. Compared to most leather, it is quite a bit tougher and a bit better at all kinds of temperature regulation.</description>
+    <graphicData>
+      <color>(112,82,65)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(112,82,65)</color>
+      <commonality>0.05</commonality>
+      <statFactors>
+        <Beauty>1.9</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_ShortFur</defName>
+    <label>shortfur pelt</label>
+    <description>A soft furry pelt harvested from a warm-weather mammal. It is difficult to pierce and insulates well against heat.</description>
+    <graphicData>
+      <color>(60,60,60)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(60,60,60)</color>
+      <commonality>0.075</commonality>
+      <statFactors>
+        <Beauty>1.7</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_LongFur</defName>
+    <label>longfur pelt</label>
+    <description>A soft furry pelt harvested from a cold-weather mammal. It is difficult to pierce and insulates well against cold.</description>
+    <graphicData>
+      <color>(115,110,100)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.02</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(115,110,100)</color>
+      <commonality>0.075</commonality>
+      <statFactors>
+        <Beauty>1.7</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

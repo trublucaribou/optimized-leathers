@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+
+<!-- Change Vanilla Animals Expanded - Arid Shrubland -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAS</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Coyote"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_ShortFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAS</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Hippopotamus"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Sturdy</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAS</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Wildebeest"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Plain</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<!-- Change Vanilla Animals Expanded - Australia -->
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAU</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Koala"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_SoftFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAU</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Platypus"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_LuxeFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<!-- Change Vanilla Animals Expanded - Boreal Forest -->
+
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEBF</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	 <xpath>/Defs/ThingDef[defName = "AEXP_Lemur"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_SoftFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEBF</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      	<xpath>/Defs/ThingDef[defName = "AEXP_Otter"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_LuxeFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEBF</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      	<xpath>/Defs/ThingDef[defName = "AEXP_ArcticCoyote"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_LongFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<!-- Change Vanilla Animals Expanded - Deserts-->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAED</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Lion"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_ShortFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAED</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Hyena"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_ShortFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<!-- Change Vanilla Animals Expanded - Ice Sheet -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEIS</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Seal"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Plain</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEIS</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Walrus"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Sturdy</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<!-- Change Vanilla Animals Expanded - Tropical -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETR</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Lemur"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_SoftFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETR</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Tapir"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Light</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETR</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Gorilla"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Thick</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETR</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Mandrill"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_ShortFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETR</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_Tiger"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_ShortFur</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+
+<!-- Change Vanilla Animals Expanded - Tropical Swamp -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETS</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_IndianElephant"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Sturdy</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+<!-- Change Vanilla Animals Expanded - Tundra -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAET</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+     	<xpath>/Defs/ThingDef[defName = "AEXP_MegaWolverine"]/race/leatherDef</xpath>
+      <value>
+         <leatherDef>Leather_Thick</leatherDef>
+      </value>
+    </match>
+</Operation>
+
+
+<!--- Remove Leathers -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAS</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Leather_Hippopotamus"]</xpath>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAS</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Leather_Wildebeest"]</xpath>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEAU</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Leather_Platypus"]</xpath>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAED</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Leather_Lion"]</xpath>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAEIS</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Leather_Pinniped"]</xpath>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>VanillaExpanded.VAETR</li>
+    </mods>
+    <match Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "AEXP_Leather_Tiger"]</xpath>
+    </match>
+</Operation>
+
+</Patch>
